@@ -10,6 +10,7 @@ H=5 {metres per calcular les dimensions de pas}
 p=800 {densitat en kg/(m^3)}
 vm=0.007 {velocitat mitjana en m/s}
 mu=1 {viscositat kg/(m*s)}
+f=100 (factor de l'equació de pressió per la continuitat)
 ! INITIAL VALUES
 EQUATIONS        { PDE's, one for each variable }
   div(grad(u))=0 { one possibility }
